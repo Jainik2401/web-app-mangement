@@ -1,0 +1,142 @@
+/* Main css */
+
+.back-color
+{
+  background-color:#fff;   
+}
+#input-applogo-error
+{
+  position: absolute; 
+  top : 0;
+  right: 0; 
+  color: #ffffff;
+  background: #ec4561; 
+  margin-right: 135px;
+  border-radius: 2px 4px 0 12px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 1;
+}
+
+span.form-error-elemet
+{
+  position: absolute; 
+  top : 0;
+  right: 0; 
+  color: #ffffff;
+  background: #ec4561; 
+  margin-right: 15px;
+  border-radius: 2px 4px 0 12px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.form-group.element-error input, .form-group.element-error select, .form-group.element-error textrea{border-color: red;}
+.form-group.element-success input, .form-group.element-success select, .form-group.element-success textrea{border-color: green;}
+
+input[switch]:checked + label:after {left: 55px; background-color: #e9ecef;}
+input[switch] + label {
+  width: 80px;
+}
+input[switch]:checked + label:before {
+  margin-left: 9px; 
+  margin-top: 4px; 
+}
+input[switch] + label:before 
+{
+   
+    margin-top: 4px; 
+}
+
+.edit
+{
+  margin-left:5px; 
+}
+.applogo
+{
+  margin-left:  10px;
+  height:  30px;
+  width:  50px;
+}
+.select2-results__message
+{
+  color: red;
+}
+#companyname-error
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    background: #ec4561;
+    margin-right: 35px;
+    border-radius: 2px 4px 0 12px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 99;
+}
+#category-error
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    background: #ec4561;
+    margin-right: 35px;
+    border-radius: 2px 4px 0 12px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 99;
+}
+.image
+{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.dataTables_empty
+{
+  color:red;
+}
+.ses-name span
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+.ses-name p
+{
+  font-size: 16px;
+}
+.dashboard
+{
+  padding: 0px 0px;
+}
+.username-formcontrol
+{
+display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 14px;
+        background-color: #e9ecef;
+    opacity: 1;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    cursor: no-drop;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.field-icon {
+    float: right; 
+    margin-top: -25px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+  }
